@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Base-style.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="headerContent">
+                <a href="#"><img src="/images/Logo.png" alt="Teamlogs-Logo"></a>
+                <div class="profileCard">
+                    <img src="/images/Avatar.png" alt="avatar" class="avatar">
+                    <h3 class="userName">Игорь Кожурин</h3>
+                    <div class="time">
+                        <p class="totalTime">99999999 минут</p>
+                        <a href="#" class="add">Пополнить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="project">
+        <div class="container">
+            <div class="createProject">
+                <div class="createProjectHeader">
+                    <h3 class="title">Создать проект</h3>
+                    <div>
+                        <p>Все проекты</p>
+                        <img src="/images/chevron-up.png" alt="chevron-up">
+                        <img src="/images/chevron-down.png" alt="chevron-down">
+                        <img src="/images/action3.png" alt="">
+                    </div>
+                </div>
+                <div class="projectOptions">
+                    <div class="cardOption">
+                        <img src="/images/plus.png" alt="createProject" class="cardImg">
+                        <p class="optionText">Создать</p>
+                    </div>
+                    <div class="cardOption">
+                        <img src="/images/marketing.png" alt="marketing" class="cardImg">
+                        <p class="optionText">Маркетинг</p>
+                    </div>
+                    <div class="cardOption">
+                        <img src="/images/disign.png" alt="design" class="cardImg">
+                        <p class="optionText">Дизайн</p>
+                    </div>
+                    <div class="cardOption">
+                        <img src="/images/yandex.png" alt="yandex" class="cardImg">
+                        <p title="Александр (Яндекс)" class="optionText"> Александр (Янд...</p>
+                    </div>
+                    <div class="cardOption">
+                        <img src="/images/mail.png" alt="mail" class="cardImg">
+                        <p class="optionText">Mail.ru Group</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="transcripts">
+        <div class="container">
+            <div class="transcriptsTitle">
+                <h1 class='transcriptTitle'>Список ваших расшифровок</h1>
+            </div>
+            <div class="transcriptsContent">
+                <div class="tableAction">
+                    <label for="amount">Показывать</label>
+                    <select name="amount" id="amount">
+                        <option value="10">10</option>
+                        <option value="20">20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                    </select>
+                    <div class="button">
+                        <img src="/images/addRecord.png" alt="+">
+                        <p>Добавить запись</p>
+                    </div>
+
+                    <p>Поиск</p>
+                    <input type="text" placeholder="&#10025 Введите запрос" class="input">
+                    <label for="status">Выберите статус</label>
+                    <select name="status" id="status">
+                        <option value="">Обработана</option>
+                        <option value="">В обработке</option>
+                        <option value="">Не обработана</option>
+                        <option value="">Отклонено</option>
+                    </select>
+
+                </div>
+                <div class="table">
+                    <table>
+                        <tr class="row">
+                            <th>#
+                                <img src="/images/chevron-up.png" alt="chevron-up">
+                                <img src="/images/chevron-down.png" alt="chevron-down">
+                            </th>
+                            <th>Участники</th>
+                            <th class="name">Название</th>
+                            <th>Продолжительность
+                                <img src="/images/chevron-up.png" alt="chevron-up">
+                                <img src="/images/chevron-down.png" alt="chevron-down">
+                            </th>
+                            <th>Дата создания
+                                <img src="/images/chevron-up.png" alt="chevron-up">
+                                <img src="/images/chevron-down.png" alt="chevron-down">
+                            </th>
+                            <th>Статус
+                                <img src="/images/chevron-up.png" alt="chevron-up">
+                                <img src="/images/chevron-down.png" alt="chevron-down">
+                            </th>
+                            <th>Действия</th>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status noProcessing">Не обработана</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processed">Обработана</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status rejected">Отклонено</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                        <tr class="row">
+                            <td class="num">#91716</td>
+                            <td class="participants">
+                                <img class="person1" src="/images/avatarGroupSymbol1.png" alt="">
+                                <img class="person2" src="/images/avatarGroupSymbol2.png" alt="">
+                                <img class="person3" src="/images/avatarGroupSymbol3.png" alt="">
+                            </td>
+                            <td class="eventName">Все симптомы короны</td>
+                            <td class="duration">26 минут</td>
+                            <td class="date">09 Февраля 2020</td>
+                            <td>
+                                <div class="status processing">В обработке</div>
+                            </td>
+                            <td class="actions">
+                                <img src="/images/action1.png" alt="">
+                                <img src="/images/action2.png" alt="">
+                                <img src="/images/action3.png" alt="">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tableFooter">
+                    <p class="rowShowed">Показаны с 1 по 10 из 100 записей</p>
+                    <ul class="pages">
+                        <li class="back">&#8249</li>
+                        <div class="numbers">
+                            <li class="current">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                        </div>
+                        <li class="next">&#8250</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
