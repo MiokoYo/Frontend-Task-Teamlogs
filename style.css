@@ -93,6 +93,10 @@
     margin-right: 15px;
 }
 
+.cardOption:hover {
+    background-color: #c7c5c56b;
+}
+
 .cardImg {
     margin-top: 17px;
 }
@@ -132,7 +136,7 @@
     justify-content: space-around;
 }
 
-.button {
+.button a {
     background-color: #2961F6;
     color: #ffffff;
     border-radius: 5px;
@@ -142,6 +146,10 @@
     align-items: center;
     justify-content: space-around;
     display: flex;
+}
+
+.button a:hover {
+    background-color: #13307eea;
 }
 
 .input {
