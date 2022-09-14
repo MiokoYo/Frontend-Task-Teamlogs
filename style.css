@@ -18,32 +18,35 @@
 .profileCard {
     background-color: #F4F4F4;
     border-radius: 10px;
-    width: 301px;
-    height: 52px;
+    /* width: 301px;
+    height: 52px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 15px
+}
 
-    /* flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-evenly;
-    align-items: flex-start; */
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
 }
 
 .time {
     display: flex;
-    padding-left: 65px;
+    gap: 10px;
 }
 
 .avatar {
-    padding: 7px 0 7px 15px;
     border-radius: 40px;
+    width: 38px;
+    height: 38px;
 }
 
 .userName {
     font-family: 'Inter-Regular';
     font-size: 16px;
     position: relative;
-    padding-top: 7px;
-    padding-left: 65px;
 }
 
 .totalTime {
@@ -57,7 +60,7 @@
     font-family: 'Inter';
     font-weight: 300;
     font-size: 14px;
-    color: #2961F6;
+    color: #2961F6 !important;
 }
 
 /*Create project part*/
